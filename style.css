@@ -1,0 +1,125 @@
+body{
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.EwbatycHx_915hcNzd7vRgHaE8&pid=Api&P=0");
+    background-size: cover;
+    max-height: max-content;
+    height: 100%;
+    width: 100%;
+    
+}
+
+header{
+    
+    padding: 20px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.main{
+    
+    display:inline-block;
+    width: 150px;
+    font-size: large;
+    font-weight: 600px;
+}
+
+.logo{
+    
+    width: 600px;
+    position:absolute;
+    right: 20px;
+    display:inline-block;
+}
+
+.logo>a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}    
+
+.logo>a:hover{
+    color: red;
+}
+
+#go{
+    color: cadetblue;
+}
+#go{
+    color: white;
+}
+
+.heading{
+    color: white;
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+    position: sticky;
+    border: 2px white;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.heading+h3{
+    color:red;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+    position: sticky;
+    
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: 250px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.read{
+    color: white;
+}
+
+.read:hover{
+    color: white;
+}
+
+.heading+h3+p{
+    color: white;
+    
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+    position: sticky;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    word-spacing: 4px;   
+}
+
+.write{
+    width: 120px;
+    border: 2px solid white;
+    background-color: red;
+    color: black;
+    padding: 10px;
+    position: relative;
+    left: 340px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.write:hover{
+    background-color: transparent;
+    color: white;
+}
+
+footer{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+        position: sticky;
+    position: fixed;
+    bottom: 0;
+}
